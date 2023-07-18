@@ -4,7 +4,7 @@ import { themeContext } from './ThemeContext'
 const Box = () => {
     const theme = useContext(themeContext)
   return (
-    <div style={{background:theme.secondary.backgroundColor , color:theme.primary.color}}>Box</div>
+    <div style={{backgroundColor:theme.primary.backgroundColor , color:theme.primary.color}}>Box</div>
   )
 }
 
